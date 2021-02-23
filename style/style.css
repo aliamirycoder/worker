@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'iranyekan';
+    src: url('../font/iranyekanwebregular(fanum)_0.ttf');
+}
+body{
+    direction: rtl;
+    font-family: iranyekan;
+    color: #000;
+
+}
+@keyframes about {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+@keyframes gray {
+
+    0%{
+        webkit-filter: grayscale(1);
+    }
+    50%{
+        -webkit-filter: grayscale(0);
+    }
+    100%{
+        -webkit-filter: grayscale(1);
+    }
+}
+
+.topbanner{
+    background: url("../img/img1.jpg");
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    top: -250px !important;
+}
+.bg-light{
+    opacity: 0.5;
+    background-color: black !important;
+
+}
+.nav-link{
+    color: #fff !important;
+    opacity: 5;
+}
+@media (max-width: 600px) and (min-width: 200px){
+    .bg-light{
+        background-color: gray !important;
+        opacity: 1 !important   ;
+    }
+    .top-text{
+        margin-top: 100px!important;
+
+    }
+    .topbanner {
+
+        height: 1300px !important;
+    }
+    .ehtiat{
+        margin-top: 1000px !important;
+    }
+    .card-about{
+
+        margin-top: 35px !important ;
+    }
+    .what{
+
+        height: auto !important;
+
+    }
+}
+.top-text{
+    margin-top: 100px;
+    color: white;
+    text-align: right;
+}
+.contact-us-top{
+    background-color: dodgerblue;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}
+.ehtiat{
+    margin-top: 800px;
+}
+.card-about{
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+    width: 90%;
+    background-color: #fff;
+    margin-top: 10px;
+    animation-delay: 2s;
+    animation: about 5s;
+}
+.card-about-text{
+  padding: 20px;
+    text-align: center
+;
+}
+.card-about-text p {
+    text-align: justify;
+}
+.header{
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/img23.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.btn-local{
+    background: #f3880a;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffff;
+    width: 200px;
+    transition: all 1s;
+}
+.btn-local:hover{
+    transition: all 1s;
+    background-color: transparent;
+    color: #f3880a;
+    border: 2px solid #f3880a;
+    border-radius: 15px;
+}
+.pro1{
+    position: relative;
+    margin-top: 25px;
+
+}
+.pro1 img:hover{
+    transition: all 0.3s;
+    opacity: 0.5;
+}
+.pro2:hover{
+    display: block !important;
+    opacity: 0.9;
+     transition: all 0.3s;
+}
+.pro2{
+    color: #fff;
+    transition: all 0.3s;
+   opacity: 0;
+    text-align: center  ;
+    position: absolute;
+    top: 0px;
+    background-color: dodgerblue;
+    height: 100%;
+}
+.what{
+    background: url("../img/img30.jpg");
+    width: 100%;
+    padding: 10px;
+    height: 500px;
+    color: #ffff;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+.item{
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    color: #333;
+    margin-top: 10px;
+}
+.brand{
+    background-color: #b1b1b1;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.brand-gray{
+    -webkit-filter: grayscale(1);
+    transition: all 0.3s;
+    animation: gray 1s infinite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact_end{
+    background: url("../img/img33.jpg");
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    background-attachment: fixed;
+    background-position: center;
+    color:#fff
+}
+.fotter{
+    background: #333;
+    color: #fff;
+    padding: 15px;
+}
+.text-fotter{
+    color: #848484;
+    text-align: justify;
+}
+.into-footer{
+    padding: 20px;
+
+}
+.header-pages{
+    background: #f5f5f5;
+    padding: 25px;
+    width: 100%;
+    text-align: right;
+}
+.text-detail{
+    text-align: right;
+}
+.post-blog{
+    box-shadow: 0px 8px 20px 10px rgba(221, 221, 221, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.sidebar{
+    background: #fafafa;
+    padding: 8px;
+    color: #666;
+    text-align: right;
+}
+.sidebar-title{
+    background: #f5f5f5;
+    width: 100%;
+    display: inline-block;
+    padding: 6px;
+    text-align: right;
+}
+.sidebar ul{
+    list-style-type: none;
+}
+.sidebar ul li{
+    padding: 5px;
+    margin-right: -35px;
+}
